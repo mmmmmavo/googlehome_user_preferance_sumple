@@ -1,0 +1,34 @@
+データベースサンプルプログラム
+
+▼パターン1(デバイスのIDを使用してユーザーが名乗らない実装)
+・ディレクトリ
+.1/
+
+・デモムービー
+https://firebasestorage.googleapis.com/v0/b/user-preferance2.appspot.com/o/%E3%83%86%E3%82%99%E3%83%8F%E3%82%99%E3%82%A4%E3%82%B9%E3%81%AEid%E3%81%A6%E3%82%99%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B%E6%A9%9F%E8%83%BD.mov?alt=media&token=2172906f-e584-4568-9447-00c9fbac5da1
+
+
+▼パターン1(デバイスのIDを使用してユーザーが名乗らない実装)
+・ディレクトリ
+.2/
+
+・デモムービー
+https://firebasestorage.googleapis.com/v0/b/user-preferance2.appspot.com/o/%E3%83%A6%E3%83%BC%E3%82%B5%E3%82%99%E3%83%BC%E5%90%8D%E4%B9%97%E3%82%8A%E6%A9%9F%E8%83%BD.mov?alt=media&token=9f0eb16d-22dc-42c1-b441-cc9cf10f2bc5
+
+▼".1/" ".2/"のディレクトリ内の構成
+./dialogflow
+agentのエクスポートしたzipファイルが入っています。
+
+./functions
+firebase cloud function関係のファイルが入っています。
+
+その他firebase周りのファイルが含まれています。
+
+▼アプリインポート手順
+・actions on googleにてプロジェクト作成
+・dialogflow agentを作成/actions on google と連携
+・dialog flow agentをインポート
+・firebase cloud functionsをデプロイ
+・dialogflowのfullfilmentにcloudfunctionsのURLを設定
+・firebaseコンソール(web)にて、cloud firestoreを有効化(テストモードで開始してください)
+
