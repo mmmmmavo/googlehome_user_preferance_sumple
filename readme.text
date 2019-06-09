@@ -8,7 +8,7 @@
 https://firebasestorage.googleapis.com/v0/b/user-preferance2.appspot.com/o/%E3%83%86%E3%82%99%E3%83%8F%E3%82%99%E3%82%A4%E3%82%B9%E3%81%AEid%E3%81%A6%E3%82%99%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B%E6%A9%9F%E8%83%BD.mov?alt=media&token=2172906f-e584-4568-9447-00c9fbac5da1
 
 
-▼パターン1(デバイスのIDを使用してユーザーが名乗らない実装)
+▼パターン1(ユーザーが名乗る実装)
 ・ディレクトリ
 .2/
 
